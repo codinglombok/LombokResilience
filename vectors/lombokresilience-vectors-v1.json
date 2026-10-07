@@ -1,0 +1,3855 @@
+{
+ "version": 1,
+ "caseCount": 508,
+ "ewma": [
+  {
+   "alpha": 0.2,
+   "values": [
+    {
+     "sample": 10,
+     "value": 10
+    },
+    {
+     "sample": 20,
+     "value": 12
+    },
+    {
+     "sample": 30,
+     "value": 15.600000000000001
+    },
+    {
+     "sample": 5,
+     "value": 13.480000000000002
+    },
+    {
+     "sample": 5,
+     "value": 11.784000000000002
+    },
+    {
+     "sample": 5,
+     "value": 10.427200000000003
+    },
+    {
+     "sample": 100,
+     "value": 28.34176
+    },
+    {
+     "sample": 0,
+     "value": 22.673408000000002
+    },
+    {
+     "sample": 0.5,
+     "value": 18.238726400000004
+    },
+    {
+     "sample": 12.25,
+     "value": 17.040981120000005
+    }
+   ]
+  },
+  {
+   "alpha": 0.5,
+   "values": [
+    {
+     "sample": 1,
+     "value": 1
+    },
+    {
+     "sample": 2,
+     "value": 1.5
+    },
+    {
+     "sample": 3,
+     "value": 2.25
+    },
+    {
+     "sample": 4,
+     "value": 3.125
+    },
+    {
+     "sample": 5,
+     "value": 4.0625
+    },
+    {
+     "sample": 6,
+     "value": 5.03125
+    },
+    {
+     "sample": 7,
+     "value": 6.015625
+    },
+    {
+     "sample": 8,
+     "value": 7.0078125
+    }
+   ]
+  },
+  {
+   "alpha": 1,
+   "values": [
+    {
+     "sample": 7,
+     "value": 7
+    },
+    {
+     "sample": 9,
+     "value": 9
+    },
+    {
+     "sample": 11,
+     "value": 11
+    }
+   ]
+  },
+  {
+   "alpha": 0.05,
+   "values": [
+    {
+     "sample": 100,
+     "value": 100
+    },
+    {
+     "sample": 100,
+     "value": 100
+    },
+    {
+     "sample": 100,
+     "value": 100
+    },
+    {
+     "sample": 1,
+     "value": 95.05
+    },
+    {
+     "sample": 1,
+     "value": 90.3475
+    },
+    {
+     "sample": 1,
+     "value": 85.88012499999999
+    },
+    {
+     "sample": 1,
+     "value": 81.63611874999998
+    },
+    {
+     "sample": 1,
+     "value": 77.60431281249997
+    }
+   ]
+  },
+  {
+   "alpha": 0.2,
+   "values": [
+    {
+     "sample": 0,
+     "value": 0
+    }
+   ]
+  },
+  {
+   "alpha": 0.3,
+   "values": [
+    {
+     "sample": 41.38,
+     "value": 41.38
+    },
+    {
+     "sample": 32.62,
+     "value": 38.752
+    },
+    {
+     "sample": 41.87,
+     "value": 39.6874
+    },
+    {
+     "sample": 2.67,
+     "value": 28.582179999999994
+    },
+    {
+     "sample": 37.91,
+     "value": 31.380525999999996
+    },
+    {
+     "sample": 12.24,
+     "value": 25.638368199999995
+    },
+    {
+     "sample": 40.06,
+     "value": 29.964857739999996
+    },
+    {
+     "sample": 34.25,
+     "value": 31.250400417999998
+    },
+    {
+     "sample": 6.42,
+     "value": 23.801280292599994
+    },
+    {
+     "sample": 34.35,
+     "value": 26.965896204819995
+    },
+    {
+     "sample": 20.64,
+     "value": 25.068127343373995
+    },
+    {
+     "sample": 29.32,
+     "value": 26.343689140361793
+    },
+    {
+     "sample": 7.45,
+     "value": 20.675582398253255
+    },
+    {
+     "sample": 16.09,
+     "value": 19.299907678777277
+    },
+    {
+     "sample": 19.74,
+     "value": 19.431935375144093
+    },
+    {
+     "sample": 24.7,
+     "value": 21.012354762600864
+    },
+    {
+     "sample": 45.01,
+     "value": 28.2116483338206
+    },
+    {
+     "sample": 36.61,
+     "value": 30.73115383367442
+    },
+    {
+     "sample": 13.47,
+     "value": 25.55280768357209
+    },
+    {
+     "sample": 40.64,
+     "value": 30.078965378500463
+    },
+    {
+     "sample": 31.25,
+     "value": 30.430275764950323
+    },
+    {
+     "sample": 17.6,
+     "value": 26.581193035465226
+    },
+    {
+     "sample": 17.91,
+     "value": 23.97983512482566
+    },
+    {
+     "sample": 24.49,
+     "value": 24.13288458737796
+    },
+    {
+     "sample": 33.23,
+     "value": 26.862019211164572
+    },
+    {
+     "sample": 36.14,
+     "value": 29.6454134478152
+    },
+    {
+     "sample": 42.71,
+     "value": 33.56478941347064
+    },
+    {
+     "sample": 18.5,
+     "value": 29.04535258942945
+    },
+    {
+     "sample": 29.32,
+     "value": 29.127746812600613
+    },
+    {
+     "sample": 0.39,
+     "value": 20.50642276882043
+    }
+   ]
+  }
+ ],
+ "breaker": [
+  {
+   "cfg": {
+    "failureThreshold": 5,
+    "cooldownMs": 30000,
+    "halfOpenProbes": 1
+   },
+   "steps": [
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 0,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 1,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 10,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 11,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 12,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 13,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 14,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 14,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 30013,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 30014,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 30014,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 60013,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 60014,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 60015,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 60016,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 60017,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 60018,
+     "allowed": null,
+     "state": "closed"
+    }
+   ]
+  },
+  {
+   "cfg": {
+    "failureThreshold": 1,
+    "cooldownMs": 0,
+    "halfOpenProbes": 2
+   },
+   "steps": [
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 0,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 1,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 10,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 11,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 12,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 13,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 14,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 14,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 30013,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 30014,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 30014,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 60013,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 60014,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 60015,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 60016,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 60017,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 60018,
+     "allowed": null,
+     "state": "open"
+    }
+   ]
+  },
+  {
+   "cfg": {
+    "failureThreshold": 3,
+    "cooldownMs": 1000,
+    "halfOpenProbes": 3
+   },
+   "steps": [
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 0,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 0,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 1,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 10,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 11,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 12,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 13,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 14,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 14,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 30013,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 30014,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 30014,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 60013,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 60014,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 60015,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 60016,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 60017,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 60018,
+     "allowed": null,
+     "state": "closed"
+    }
+   ]
+  },
+  {
+   "cfg": {
+    "failureThreshold": 5,
+    "cooldownMs": 30000,
+    "halfOpenProbes": 1
+   },
+   "steps": [
+    {
+     "op": "allow",
+     "t": 273,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 832,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 1026,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 1515,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 1741,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 1847,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 2489,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 3085,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 3647,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 4241,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 4729,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 4945,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 5426,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 5622,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 5674,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 5699,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 5767,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 5959,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 6440,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 6598,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 6729,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 7059,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 7561,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 7568,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 7973,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 8585,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 9226,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 9470,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 9816,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 10222,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 10458,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 10542,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 10947,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 11450,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 11974,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 12247,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 12525,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 12920,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 13427,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 14036,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 14484,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 15069,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 15377,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 15773,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 16468,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 16600,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 16699,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 17126,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 17624,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 18250,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 18470,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 18669,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 19281,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 19772,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 20139,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 20297,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 20526,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 21152,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 21824,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 22405,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 22625,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 22994,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 23455,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 24032,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 24591,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 25191,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 25479,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 25515,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 25837,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 26504,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 26765,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 27059,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 27340,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 27694,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 27931,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 27969,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 28329,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 28899,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 29408,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 29847,
+     "allowed": null,
+     "state": "closed"
+    }
+   ]
+  },
+  {
+   "cfg": {
+    "failureThreshold": 1,
+    "cooldownMs": 0,
+    "halfOpenProbes": 2
+   },
+   "steps": [
+    {
+     "op": "allow",
+     "t": 393,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 1067,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 1233,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 1850,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 2497,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 2627,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 2765,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 3003,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 3035,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 3333,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 3760,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 3902,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 4300,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 4346,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 4951,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 5251,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 5354,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 5958,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 6070,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 6075,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 6741,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 6785,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 7204,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 7498,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 8106,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 8597,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 9281,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 9480,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 9745,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 9809,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 9987,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 10119,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 10203,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 10558,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 11064,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 11564,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 11671,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 11703,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 12297,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 12747,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 13375,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 13851,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 14424,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 14672,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 15205,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 15555,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 16084,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 16372,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 16702,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 16800,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 17246,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 17477,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 17520,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 17793,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 18417,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 18792,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 19197,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 19202,
+     "allowed": false,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 19681,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 20042,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 20366,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 20856,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 21485,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 21590,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 22016,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 22228,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 22781,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 22943,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 23032,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 23138,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 23377,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 23500,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 24051,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 24488,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 24694,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 25338,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 25440,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 26064,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 26683,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 26685,
+     "allowed": true,
+     "state": "closed"
+    }
+   ]
+  },
+  {
+   "cfg": {
+    "failureThreshold": 3,
+    "cooldownMs": 1000,
+    "halfOpenProbes": 3
+   },
+   "steps": [
+    {
+     "op": "allow",
+     "t": 257,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 843,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 1009,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 1598,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 2108,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 2233,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 2573,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 2702,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 3273,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 3809,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 4189,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 4722,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 5000,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 5051,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 5460,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 5542,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 5542,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 6156,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 6302,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 6744,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 6858,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 6943,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 7143,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 7655,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 7919,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 8597,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 8942,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 9141,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 9647,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 9678,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 10061,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 10189,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 10317,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 10917,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 10990,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 11072,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "failure",
+     "t": 11525,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 11822,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 12081,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 12455,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 12883,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 12928,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "allow",
+     "t": 13196,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 13742,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 14132,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 14409,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 15100,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 15410,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 15420,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 15774,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 16122,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 16726,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 16952,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 17181,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 17212,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 17809,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 17862,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 17988,
+     "allowed": false,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 18422,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 18832,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 19005,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 19367,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 19923,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 20399,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "success",
+     "t": 20408,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 21004,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "allow",
+     "t": 21095,
+     "allowed": true,
+     "state": "half_open"
+    },
+    {
+     "op": "success",
+     "t": 21431,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 21609,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 22219,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 22417,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 22767,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 23294,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "allow",
+     "t": 23813,
+     "allowed": true,
+     "state": "closed"
+    },
+    {
+     "op": "success",
+     "t": 24363,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 24421,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 24471,
+     "allowed": null,
+     "state": "closed"
+    },
+    {
+     "op": "failure",
+     "t": 24889,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 25261,
+     "allowed": null,
+     "state": "open"
+    },
+    {
+     "op": "failure",
+     "t": 25423,
+     "allowed": null,
+     "state": "open"
+    }
+   ]
+  }
+ ],
+ "backoff": [
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 100
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 200
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 400
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 800
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 3200
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 25600
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 30000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "none"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 30000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 0,
+   "rand": 0.25,
+   "delay": 25
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 0,
+   "rand": 0.5,
+   "delay": 50
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 0,
+   "rand": 0.999,
+   "delay": 99
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 1,
+   "rand": 0.25,
+   "delay": 50
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 1,
+   "rand": 0.5,
+   "delay": 100
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 1,
+   "rand": 0.999,
+   "delay": 199
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 2,
+   "rand": 0.25,
+   "delay": 100
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 2,
+   "rand": 0.5,
+   "delay": 200
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 2,
+   "rand": 0.999,
+   "delay": 399
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 3,
+   "rand": 0.25,
+   "delay": 200
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 3,
+   "rand": 0.5,
+   "delay": 400
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 3,
+   "rand": 0.999,
+   "delay": 799
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 5,
+   "rand": 0.25,
+   "delay": 800
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 5,
+   "rand": 0.5,
+   "delay": 1600
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 5,
+   "rand": 0.999,
+   "delay": 3196
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 8,
+   "rand": 0.25,
+   "delay": 6400
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 8,
+   "rand": 0.5,
+   "delay": 12800
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 8,
+   "rand": 0.999,
+   "delay": 25574
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 12,
+   "rand": 0.25,
+   "delay": 7500
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 12,
+   "rand": 0.5,
+   "delay": 15000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 12,
+   "rand": 0.999,
+   "delay": 29970
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 40,
+   "rand": 0.25,
+   "delay": 7500
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 40,
+   "rand": 0.5,
+   "delay": 15000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "full"
+   },
+   "attempt": 40,
+   "rand": 0.999,
+   "delay": 29970
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 50
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0.25,
+   "delay": 62
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0.5,
+   "delay": 75
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0.999,
+   "delay": 99
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 100
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0.25,
+   "delay": 125
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0.5,
+   "delay": 150
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0.999,
+   "delay": 199
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 200
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0.25,
+   "delay": 250
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0.5,
+   "delay": 300
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0.999,
+   "delay": 399
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 400
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0.25,
+   "delay": 500
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0.5,
+   "delay": 600
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0.999,
+   "delay": 799
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 1600
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0.25,
+   "delay": 2000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0.5,
+   "delay": 2400
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0.999,
+   "delay": 3198
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 12800
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0.25,
+   "delay": 16000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0.5,
+   "delay": 19200
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0.999,
+   "delay": 25587
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 15000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0.25,
+   "delay": 18750
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0.5,
+   "delay": 22500
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0.999,
+   "delay": 29985
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 15000
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0.25,
+   "delay": 18750
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0.5,
+   "delay": 22500
+  },
+  {
+   "cfg": {
+    "baseMs": 100,
+    "factor": 2,
+    "maxMs": 30000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0.999,
+   "delay": 29985
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 250
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 375
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 562
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 843
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 1898
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 5000
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 5000
+  },
+  {
+   "cfg": {
+    "baseMs": 250,
+    "factor": 1.5,
+    "maxMs": 5000,
+    "jitter": "none"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 5000
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 0,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 1,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 2,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 3,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 5,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 8,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 12,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 5
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0.25,
+   "delay": 6
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0.5,
+   "delay": 7
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 1,
+    "maxMs": 1000,
+    "jitter": "equal"
+   },
+   "attempt": 40,
+   "rand": 0.999,
+   "delay": 9
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 0,
+    "factor": 3,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 5000,
+    "factor": 2,
+    "maxMs": 1000,
+    "jitter": "none"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 1000
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 0,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 1,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 2,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 3,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 5,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 8,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 12,
+   "rand": 0,
+   "delay": 0
+  },
+  {
+   "cfg": {
+    "baseMs": 10,
+    "factor": 2,
+    "maxMs": 0,
+    "jitter": "none"
+   },
+   "attempt": 40,
+   "rand": 0,
+   "delay": 0
+  }
+ ],
+ "rank": [
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": 30,
+     "healthy": true
+    },
+    {
+     "id": "b",
+     "ewma": 10,
+     "healthy": true
+    },
+    {
+     "id": "c",
+     "ewma": 20,
+     "healthy": true
+    },
+    {
+     "id": "d",
+     "ewma": 5,
+     "healthy": true
+    },
+    {
+     "id": "e",
+     "ewma": 50,
+     "healthy": true
+    }
+   ],
+   "n": 4,
+   "out": [
+    "d",
+    "b",
+    "c",
+    "a"
+   ]
+  },
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": 30,
+     "healthy": true
+    },
+    {
+     "id": "b",
+     "ewma": null,
+     "healthy": true
+    },
+    {
+     "id": "c",
+     "ewma": 20,
+     "healthy": true
+    }
+   ],
+   "n": 3,
+   "out": [
+    "b",
+    "c",
+    "a"
+   ]
+  },
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": 10,
+     "healthy": false
+    },
+    {
+     "id": "b",
+     "ewma": 90,
+     "healthy": true
+    },
+    {
+     "id": "c",
+     "ewma": 50,
+     "healthy": false
+    },
+    {
+     "id": "d",
+     "ewma": 20,
+     "healthy": true
+    }
+   ],
+   "n": 3,
+   "out": [
+    "d",
+    "b",
+    "a"
+   ]
+  },
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": 10,
+     "healthy": false
+    },
+    {
+     "id": "b",
+     "ewma": 90,
+     "healthy": false
+    }
+   ],
+   "n": 5,
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": 10,
+     "healthy": true
+    },
+    {
+     "id": "b",
+     "ewma": 10,
+     "healthy": true
+    },
+    {
+     "id": "c",
+     "ewma": 10,
+     "healthy": true
+    }
+   ],
+   "n": 2,
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": null,
+     "healthy": true
+    },
+    {
+     "id": "b",
+     "ewma": null,
+     "healthy": true
+    },
+    {
+     "id": "c",
+     "ewma": 1,
+     "healthy": true
+    }
+   ],
+   "n": 2,
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "cands": [],
+   "n": 4,
+   "out": []
+  },
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": 1,
+     "healthy": true
+    }
+   ],
+   "n": 0,
+   "out": []
+  },
+  {
+   "cands": [
+    {
+     "id": "a",
+     "ewma": 0,
+     "healthy": true
+    },
+    {
+     "id": "b",
+     "ewma": null,
+     "healthy": true
+    },
+    {
+     "id": "c",
+     "ewma": 0,
+     "healthy": false
+    },
+    {
+     "id": "d",
+     "ewma": null,
+     "healthy": false
+    }
+   ],
+   "n": 4,
+   "out": [
+    "b",
+    "a",
+    "d",
+    "c"
+   ]
+  }
+ ]
+}
