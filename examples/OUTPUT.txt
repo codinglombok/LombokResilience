@@ -1,0 +1,4 @@
+ewma 112.32
+rank [ 'b', 'a', 'c' ]
+open false true half_open
+backoff [ 100, 200, 400, 500 ]
