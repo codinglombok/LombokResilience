@@ -2,72 +2,72 @@
 
 Small resilience primitives with explicit time: EWMA latency tracking, circuit breaker, exponential backoff with jitter, and health-aware candidate ranking. Part of the Lombok Ecosystem.
 
-## Mengapa library ini?
+## Why this library?
 
-Klien yang memanggil beberapa tujuan setara (server, replika, penyedia) membutuhkan cara memilih yang cepat dan sehat, berhenti memanggil yang gagal, dan mencoba ulang dengan jeda. Library ini menyediakan bagian-bagian itu sebagai fungsi murni dengan waktu eksplisit, identik lintas bahasa.
+A client that calls several equivalent targets (servers, replicas, providers) needs to pick the fast and healthy ones, stop calling failing ones, and retry with delays. This library provides those pieces as pure functions with explicit time, identical across languages.
 
-## Fitur
+## Features
 
-- Ewma: rata-rata bergerak eksponensial
-- Breaker: closed, open, half_open dengan jumlah percobaan terbatas
-- backoffDelay: eksponensial, batas atas, jitter none/full/equal dengan angka acak dari pemanggil
-- rank: urutkan kandidat sehat dan terukur, kembalikan n teratas untuk balapan atau failover
+- Ewma: exponentially weighted moving average
+- Breaker: closed, open, half_open with a bounded number of probes
+- backoffDelay: exponential, capped, with none/full/equal jitter using a random number supplied by the caller
+- rank: order healthy, measured candidates and return the top n for racing or failover
 
-## Skenario pemakaian
+## Use cases
 
-- Klien HTTP/RPC dengan beberapa replika
-- Pemilihan server upstream (DNS, NTP, mirror paket)
-- Penjadwalan ulang tugas latar yang gagal
-- Klien MQTT/modem pada perangkat tertanam yang perlu jeda ulang tanpa jam sistem
+- HTTP/RPC clients with several replicas
+- Upstream selection (DNS, NTP, package mirrors)
+- Rescheduling failed background jobs
+- MQTT or modem clients on embedded devices that need retry delays without a system clock
 
-## Instalasi
+## Installation
 
-Belum terbit di registry (0.1.0 belum dirilis). Setelah rilis:
+Not yet published to any registry (0.1.0 has not been released). After release:
 
 ```
 npm install lombokresilience
 pip install lombokresilience
 ```
 
-## API ringkas
+## API overview
 
 - `new Ewma(alpha): update(sample) -> value; value`
 - `new Breaker({failureThreshold, cooldownMs, halfOpenProbes}): allow(nowMs); onSuccess(nowMs); onFailure(nowMs); state`
 - `backoffDelay(attempt, {baseMs, factor, maxMs, jitter}, rand=0) -> ms`
 - `rank(candidates, n) -> ids`
 
-Rincian: `docs/API_LombokResilience_v0.1.0.md`.
+Details: `docs/API_LombokResilience_v0.1.0.md`.
 
-## Status port
+## Port status
 
 | Port | Status |
 |---|---|
-| TypeScript (referensi) | YA, lulus seluruh 508 kasus vector |
-| Python | YA, lulus seluruh 508 kasus vector |
-| Rust, Go, PHP | BELUM |
+| TypeScript (reference) | YES, passes all 508 vector cases |
+| Python | YES, passes all 508 vector cases |
+| Rust, Go, PHP | NOT YET |
 
-## Standar yang diimplementasikan
+## Standards implemented
 
-Kontrak normatif ada di `docs/SPEC_LombokResilience_v0.1.0.md`; vector di `vectors/lombokresilience-vectors-v1.json`.
+The normative contract is in `docs/SPEC_LombokResilience_v0.1.0.md`; the vectors are in `vectors/lombokresilience-vectors-v1.json`.
 
-## Batasan yang diketahui
+## Known limitations
 
-- Breaker berbasis kegagalan beruntun; tidak ada jendela laju kegagalan.
-- Tidak aman antar-thread.
-- Port Rust, Go, PHP BELUM.
+- Breaker is based on consecutive failures; there is no failure-rate window.
+- Not thread-safe.
+- Rust, Go and PHP ports: NOT YET.
 
-## Pengembangan
+## Development
 
 ```
-node --test typescript/test/          # TypeScript (Node 22+)
-python -m pytest python/tests         # Python 3.10+
-node scripts/gen_vectors.ts           # membangkitkan ulang vector dari referensi TypeScript
+node --test typescript/test/vectors.test.ts   # TypeScript (Node 22+)
+python -m pytest python/tests                 # Python 3.10+
+node scripts/gen_vectors.ts                   # regenerate vectors from the TypeScript reference
 ```
 
-## Ekosistem Lombok
+## Lombok Ecosystem
 
 Part of the [Lombok Ecosystem](https://github.com/codinglombok).
 
-## Lisensi
+## License
 
-Apache-2.0 OR MIT (lihat `LICENSE-APACHE` dan `LICENSE-MIT`).
+Apache-2.0 OR MIT (see `LICENSE-APACHE` and `LICENSE-MIT`).

@@ -1,16 +1,16 @@
-# Panduan Pemakaian LombokResilience
+# Usage Guide LombokResilience
 
-## 1. Instalasi
+## 1. Installation
 
-Setelah rilis: `npm install lombokresilience` atau `pip install lombokresilience`. Sebelum rilis, salin folder `typescript/src` atau `python/src/lombokresilience` (tanpa dependensi).
+After release: `npm install lombokresilience` or `pip install lombokresilience`. Before release, copy the `typescript/src` folder or `python/src/lombokresilience` (no dependencies).
 
-## 2. Konsep dasar
+## 2. Basic concepts
 
-Empat bagian independen: Ewma menyimpan rata-rata latensi; Breaker memutus pemanggilan tujuan yang gagal; backoffDelay menghitung jeda ulang; rank memilih kandidat terbaik. Semua menerima waktu atau angka acak dari pemanggil.
+Four independent parts: Ewma keeps an average latency; Breaker stops calling failing targets; backoffDelay computes retry delays; rank chooses the best candidates. All of them take time or random numbers from the caller.
 
-## 3. Contoh
+## 3. Examples
 
-Berkas `examples/example.ts` dan `examples/example.py` menghasilkan keluaran berikut (TypeScript; Python sama kecuali format cetak):
+`examples/example.ts` and `examples/example.py` produce the following output (TypeScript; Python is identical except for print formatting):
 
 ```
 ewma 112.32
@@ -19,7 +19,7 @@ open false true half_open
 backoff [ 100, 200, 400, 500 ]
 ```
 
-Kode TypeScript:
+TypeScript code:
 
 ```ts
 import { Breaker, Ewma, backoffDelay, rank } from "lombokresilience";
@@ -36,16 +36,16 @@ console.log("backoff", [0, 1, 2, 3].map((n) => backoffDelay(n, { baseMs: 100, fa
 
 ## 4. Recipes
 
-- Balapan ke top-N: rank(kandidat, 4) lalu kirim paralel ke hasilnya.
-- Probe kesehatan: panggil Breaker.allow sebelum mencoba dan onSuccess/onFailure sesudahnya.
-- Jitter: berikan rand dari generator Anda ke backoffDelay dengan jitter 'full' atau 'equal'.
+- Race the top N: rank(candidates, 4) and send in parallel to the result.
+- Health probing: call Breaker.allow before trying and onSuccess/onFailure afterwards.
+- Jitter: pass a rand value from your generator to backoffDelay with jitter 'full' or 'equal'.
 
 ## 5. Common pitfalls
 
-- Breaker berbasis kegagalan beruntun; tidak ada jendela laju kegagalan.
-- Tidak aman antar-thread.
-- Port Rust, Go, PHP BELUM.
+- Breaker is based on consecutive failures; there is no failure-rate window.
+- Not thread-safe.
+- Rust, Go and PHP ports: NOT YET.
 
-## 6. Lihat juga
+## 6. See also
 
 `SPEC_LombokResilience_v0.1.0.md`, `API_LombokResilience_v0.1.0.md`, `full_summary_project_LombokResilience_v0.1.0.md`.

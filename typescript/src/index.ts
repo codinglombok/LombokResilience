@@ -2,11 +2,11 @@ export type BreakerState = "closed" | "open" | "half_open";
 export type Jitter = "none" | "full" | "equal";
 
 export interface BreakerConfig {
-  /** kegagalan beruntun yang membuka sirkuit (>= 1) */
+  /** consecutive failures that open the circuit (>= 1) */
   failureThreshold: number;
-  /** ms sirkuit terbuka sebelum mengizinkan percobaan (>= 0) */
+  /** ms the circuit stays open before allowing a probe (>= 0) */
   cooldownMs: number;
-  /** jumlah percobaan serentak pada half_open (>= 1) */
+  /** number of concurrent probes while half_open (>= 1) */
   halfOpenProbes: number;
 }
 export interface BackoffConfig {
@@ -17,12 +17,12 @@ export interface BackoffConfig {
 }
 export interface Candidate {
   id: string;
-  /** rata-rata latensi (EWMA) atau null bila belum ada sampel */
+  /** latency average (EWMA), or null if there are no samples yet */
   ewma: number | null;
   healthy: boolean;
 }
 
-/** Rata-rata bergerak eksponensial. Sampel pertama menjadi nilai awal. */
+/** Exponentially weighted moving average. The first sample becomes the initial value. */
 export class Ewma {
   private v: number | null = null;
   private readonly alpha: number;
@@ -40,7 +40,7 @@ export class Ewma {
   }
 }
 
-/** Pemutus sirkuit. Waktu dilewatkan eksplisit (ms bilangan bulat, tidak turun). */
+/** Circuit breaker. Time is passed in explicitly (integer ms, non-decreasing). */
 export class Breaker {
   private st: BreakerState = "closed";
   private failures = 0;
@@ -93,7 +93,7 @@ export class Breaker {
   }
 }
 
-/** Jeda ulang (ms, bilangan bulat). attempt dimulai dari 0. rand dalam [0, 1) hanya dipakai bila jitter != none. */
+/** Retry delay (integer ms). attempt starts at 0. rand in [0, 1) is only used when jitter != none. */
 export function backoffDelay(attempt: number, cfg: BackoffConfig, rand = 0): number {
   if (!Number.isInteger(attempt) || attempt < 0) throw new RangeError("attempt");
   if (!(cfg.baseMs >= 0) || !(cfg.factor >= 1) || !(cfg.maxMs >= 0)) throw new RangeError("config");
@@ -109,8 +109,8 @@ export function backoffDelay(attempt: number, cfg: BackoffConfig, rand = 0): num
 }
 
 /**
- * Urutkan kandidat: sehat dulu, lalu yang belum punya sampel (dijajal lebih dulu),
- * lalu EWMA naik, seri diputus oleh urutan awal. Kembalikan paling banyak n id.
+ * Rank candidates: healthy first, then those without samples (probed first),
+ * then ascending EWMA, ties broken by original order. Returns at most n ids.
  */
 export function rank(cands: Candidate[], n: number): string[] {
   if (!Number.isInteger(n) || n < 0) throw new RangeError("n");
