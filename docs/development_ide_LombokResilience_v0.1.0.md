@@ -3,7 +3,7 @@
 ## 1. Roadmap
 
 - 0.1.1: CI, coverage, fuzz, publish
-- 0.2.0: Rust (no_std), Go, PHP ports
+- 0.2.0: Rust (no_std), PHP ports
 - 0.3.0: failure-rate window for Breaker; timeout and hedging as pure functions
 
 ## 2. Deferred scope

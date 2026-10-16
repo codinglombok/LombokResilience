@@ -2,7 +2,7 @@
 
 ## 1. Installation
 
-After release: `npm install lombokresilience` or `pip install lombokresilience`. Before release, copy the `typescript/src` folder or `python/src/lombokresilience` (no dependencies).
+After release: `npm install lombokresilience` `pip install lombokresilience`, or `go get github.com/codinglombok/lombokresilience/go`. Before release, copy the `typescript/src` folder or `python/src/lombokresilience` (no dependencies).
 
 ## 2. Basic concepts
 
@@ -44,7 +44,7 @@ console.log("backoff", [0, 1, 2, 3].map((n) => backoffDelay(n, { baseMs: 100, fa
 
 - Breaker is based on consecutive failures; there is no failure-rate window.
 - Not thread-safe.
-- Rust, Go and PHP ports: NOT YET.
+- Rust and PHP ports: NOT YET.
 
 ## 6. See also
 

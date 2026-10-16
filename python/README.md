@@ -27,6 +27,7 @@ Not yet published to any registry (0.1.0 has not been released). After release:
 ```
 npm install lombokresilience
 pip install lombokresilience
+go get github.com/codinglombok/lombokresilience/go
 ```
 
 ## API overview
@@ -44,7 +45,8 @@ Details: `docs/API_LombokResilience_v0.1.0.md`.
 |---|---|
 | TypeScript (reference) | YES, passes all 508 vector cases |
 | Python | YES, passes all 508 vector cases |
-| Rust, Go, PHP | NOT YET |
+| Go | YES, passes all 508 vector cases |
+| Rust, PHP | NOT YET |
 
 ## Standards implemented
 
@@ -54,13 +56,14 @@ The normative contract is in `docs/SPEC_LombokResilience_v0.1.0.md`; the vectors
 
 - Breaker is based on consecutive failures; there is no failure-rate window.
 - Not thread-safe.
-- Rust, Go and PHP ports: NOT YET.
+- Rust and PHP ports: NOT YET.
 
 ## Development
 
 ```
 node --test typescript/test/vectors.test.ts   # TypeScript (Node 22+)
 python -m pytest python/tests                 # Python 3.10+
+(cd go && go test ./...)                      # Go 1.22+
 node scripts/gen_vectors.ts                   # regenerate vectors from the TypeScript reference
 ```
 

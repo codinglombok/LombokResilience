@@ -17,7 +17,7 @@ A client that calls several equivalent targets (servers, replicas, providers) ne
 
 ## Current status
 
-Version 0.1.0, not yet released. TypeScript and Python pass 508 vector cases. No other ports exist.
+Version 0.1.0, not yet released. TypeScript, Python and Go pass 508 vector cases. No other ports exist.
 
 ## Example use cases
 
@@ -30,7 +30,7 @@ Version 0.1.0, not yet released. TypeScript and Python pass 508 vector cases. No
 
 - Breaker is based on consecutive failures; there is no failure-rate window.
 - Not thread-safe.
-- Rust, Go and PHP ports: NOT YET.
+- Rust and PHP ports: NOT YET.
 
 ## Further information
 
